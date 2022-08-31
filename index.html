@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- add css file -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- adding bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+      
+            <div class="top-section">
+                <h1 class="header">
+                    Weather Application 
+                </h1>
+                <form class="form">
+                    <input type="text" class="form-control input" placeholder="Search for a city" autofocus>
+                    <div type="submit" class="submit">Search</div>  
+                </form>
+            </div>
+            <div class="result-section ">
+                <div class='box'>
+                    <div class='wave -one'></div>
+                    <div class='wave -two'></div>
+                    <div class='wave -three'></div>
+                 <!-- <img class="weathericon" src=""> -->   
+                    <div class="info">
+                      <h2 class="location">unknown</h2>
+                      <p class="country-info" >COUNTRY <span class="country"></span></p>
+                      <p class="country-info" ><span class="description">unknown</span></p>
+                      <h1 class="temp">unknown  </h1>
+                    </div>
+                  </div>
+                 
+            </div>
+      
+    </div>
+
+
+
+    <!-- adding javasrcript -->
+    <script type="text/javascript" charset="UTF-8" src="javascript/weather_app.js"></script>
+</body>
+</html>
